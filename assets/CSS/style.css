@@ -1,0 +1,316 @@
+@import url(reset.css);
+@import url(style-media.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+:root{
+    --primary: #166668;
+    --secondary: #FFA180;
+    --third: #6AC7CE;
+    --forth: #D24D5C;
+    --fifth: #D86E4D;
+    --sixth: #EABF3A;
+    --seventh: #FFE07B;
+    --eighth: #DF3502;
+    --ninth: #9DDFD3;
+    --border: #FEFFFF;
+    --wight: white;
+
+}
+
+/* **** Haeder **** */
+header{
+    background-color: rgb(255, 255, 255, 0.6);
+    position: fixed;
+    width: 100%;
+    height: 200px;
+    top: 0;
+
+}
+.logo{
+text-align: center;
+padding: 1rem;
+}
+.lien{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: var(--primary);
+    font-size: 20px;
+}
+.head{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+/* **** Section 01 **** */
+.sec01{
+    height: 750px;
+    width: 100%;
+    margin-top: 200px;
+    background: url(../img/plage.svg) no-repeat center bottom / cover;
+}
+.grid01{
+    display: grid;
+}
+.article01{
+    padding: 3rem;
+    height: auto;
+    width: 550px;
+    border-radius:30px;
+    background-color: var(--wight);
+    color: var(--secondary);
+    margin-top: 10%;
+    margin-left: 15%;
+}
+.article01 h1{
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 110px;
+    
+}
+.article01 h2{
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 80px;
+
+}
+.article01 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight:normal;
+}
+
+/* **** Nav du mileu **** */
+.hidden{
+    display: none;
+}
+
+/* **** Section 02 **** */
+.sec02{
+    padding: 5rem;
+}
+.grid02{
+    display: grid;
+    justify-content: space-evenly;
+    gap: 5rem;
+}
+
+/* **** Partie gauche **** */
+.article02{
+    color: var(--third);
+    width: 550px;
+    height: 400px;
+}
+.article02 h2{
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 50px;
+}
+.article02 h3{
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 70px;
+}
+.article02 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+/* **** Partie droite **** */
+.container01{
+    background: url(../img/femme-uv-anime.svg) no-repeat center top / contain;
+    font-family: 'Montserrat Alternates', sans-serif;
+    width: 100vh;
+    grid-column: span1;
+}
+.flex01{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+}
+.uv h2{
+    color: var(--forth);
+    font-size: 40px;
+}
+.uv p{
+    background-color: var(--forth);
+    font-size: 11px;
+    color: var(--wight);
+    height: auto;
+    width: 150px;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.percent h2{
+    color: var(--fifth);
+    font-size: 40px;
+    margin-top: 1rem;
+}
+.percent p{
+    background-color: var(--fifth);
+    font-size: 11px;
+    color: var(--wight);
+    height: auto;
+    width: 150px;
+    border-radius:10px;
+    padding: 1rem;
+}
+.hour h2{
+    color: var(--sixth);
+    font-size: 40px;
+    margin-top: 1rem;
+}
+.hour p{
+    background-color: var(--sixth);
+    font-size: 11px;
+    color: var(--wight);
+    height: auto;
+    width: 150px;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+/* **** Section 3 **** */
+.sec03{
+    background: url(../img/decors-bleu.svg) no-repeat var(--seventh) 15% 40%;
+
+}
+.art02{
+    height:auto;
+    width: 700px;
+    color: var(--eighth);
+    padding: 10rem 0;
+    margin-left: 40%;
+}
+.art02 h2{
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 40px;
+}
+.art02 h3{
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+.art02 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+.img02{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+.img02 img{
+    height: 175px;
+    height: 175px;
+}
+
+/* **** Section 4 **** */
+.sec04{
+    color: var(--third);
+    background: url(../img/decors-jaune.svg) no-repeat center;
+    padding: 0 5rem;
+}
+.grid03{
+    display: grid;
+    justify-items: center;
+}
+.titre01{
+    padding: 5rem;
+}
+.titre01 h2{
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 50px;
+}
+.titre01 h3{
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 70px;
+}
+.img03{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding: 1rem;
+}
+.img03 img{
+    height: 330px;
+    width: 360px;
+}
+.art03{
+    justify-self: end;
+    padding: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    width: 800px;
+
+}
+
+/* **** Section 5 **** */
+.sec05{
+    background-color: var(--ninth);
+    color: var(--primary);
+    font-family: 'Roboto', sans-serif;
+}
+.grid04{
+    display: flex;
+    justify-content: space-between;
+}
+.newsLetter{
+    padding: 25px 50px;
+}
+.newsLetter h2{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 2rem 0;
+}
+.newsLetter p{
+    font-size: 14px;
+    width: 440px;
+    padding: ;
+    line-height: 2rem;
+}
+.enter{
+    padding: 2rem 0;
+
+}
+#email{
+    border: solid 0.5mm var(--border);
+    border-radius: 5px;
+    background-color: var(--ninth);
+    width: 280px;
+    height: 55px;
+    color: var(--primary);
+    font-size: 18px;
+}
+#button{
+    border: none;
+    background-color: var(--third);
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary);
+    font-size: 13px;
+    font-weight: bold;
+    width: 160px;
+    height: 60px;
+    margin-left: 1.5rem;
+
+}
+.contact{
+    display: flex;
+    gap: 3rem;
+    padding: 50px;
+    line-height: 2rem;
+    font-size: 13px;
+    font-weight: bold;
+}
+footer{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    background-color: var(--seventh);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: var(--primary);
+    line-height: 70px;
+}

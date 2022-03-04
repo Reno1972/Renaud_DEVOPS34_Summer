@@ -1,0 +1,185 @@
+@import url(style.css);
+@media(max-width:850px ){
+    /* **** Header **** */
+    .container{
+        display: none;
+    }
+    header{
+        position: absolute;
+    }
+    /* **** Section 1 **** */
+    .sec01{
+        height: auto;
+    }
+    .grid01{
+        justify-content: space-around;
+    }
+    .article01{
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 30px;
+
+    }
+    .article01 h1{
+        font-size: 60px;
+    }
+    .article01 h2{
+        font-size: 40px;
+    }
+    .titre{
+        margin-bottom: 2rem;
+    }
+    .article01 p{
+        font-size: 20px;
+    }
+
+    /* **** Nav du milieu **** */
+    .hidden{
+        display: block;
+    }
+    .middleNav{
+        display: flex;
+        justify-content: space-around;
+    }
+    .middleNav li img{
+        height: 66px;
+        width: 60px;
+    }
+    .middleNav li a{
+        font-size: 10px;
+    }
+    .middleNav li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* **** Section 2 **** */
+    .grid02{
+        display: flex;      
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .article02{
+        height: auto;
+        width: 100%;
+
+    }
+    .article02 h2{
+        font-size: 30px;
+
+    }
+    .article02 h3{
+        font-size: 43px;
+        line-height: 80px;
+    }
+    .article02 p{
+        font-size: 25px;
+    }
+    .container01{
+
+        align-items: center;
+        width: 100%;
+    }
+    .flex01{
+        width: auto;
+    }
+    .flex01 h2{
+        font-size: 20px;
+    }
+    .flex01 p{
+        font-size: 8px;
+        width: 116px;
+        height: 75px;
+        padding: .5rem;
+    }
+    
+    /* **** Section 3 **** */
+    .sec03{
+        background: url(../img/decors-bleu.svg) no-repeat var(--seventh) center ;
+        padding: 3rem;
+    }
+    .art02{
+        width: 100%;
+        padding: 0;
+        margin-left: 0;
+    }
+    .art02 h2{
+        font-size: 22px;
+    }
+    .art02 h3{
+        font-size: 31px;
+    }
+    .art02 p{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    /* **** Section 3 logos **** */
+    .img02{
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        padding: .5rem;
+    }
+    .img02 img{
+        height: 90px;
+        width: 90px;
+    }
+
+    /* **** Section 4 **** */
+    .grid03{
+        width: 100%;
+    }
+    .titre01{
+        padding: 2rem;
+        width: 100%;
+    }
+    .titre01 h2{
+        font-size: 22px;
+    }
+    .titre01 h3{
+        font-size: 32px;
+    }
+    .img03{
+        padding: 0;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .img03 img{
+        height: 130px;
+         width: 130px;
+    }
+    .art03{
+        justify-self: center;
+        width: 100%;
+        font-size: 25px;
+    }
+    /* **** section 5 **** */
+    .sec05{
+        width: 100%;
+    }
+    .grid04{
+        flex-direction: column;
+    }
+    .newsLetter p{
+        width: 350px;
+    }
+    .enter{
+        display: flex;
+    }
+    #email{
+        width: 210px;
+        height: 40px;
+        font-size: 13px;
+    }
+    #button{
+        width: 120px;
+        height: 40px;
+        font-size: 10px;
+    }
+    .contact{
+        flex-direction: column;
+    }
+}
